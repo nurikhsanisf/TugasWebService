@@ -7,8 +7,7 @@
                     Technology
                 </h1>
                 <p class="text-secondary fs-15">
-                    This text can be added in the category Description field in
-                    dashboard
+                News that provides information about technology
                 </p>
             </div>
             <h5 class="text-muted font-weight-medium mb-3">Tech News</h5>

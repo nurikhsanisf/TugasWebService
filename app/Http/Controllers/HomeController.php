@@ -46,8 +46,8 @@ class HomeController extends Controller
         $responseUpdateGameNewsBody = json_decode($responseUpdateGameNews->getBody());
 
         return view('game', ['responseHead' => $responseHeadBody->results,
-            'responseGameNews' => $responseGamesNewsBody->result, 'responseGameConsoleNews' => $responseGameConsoleNewsBody->result,
-            'responseGameESportNews' => $responseGameESportNewsBody->result, 'responseUpdateGameNews' => $responseUpdateGameNewsBody->result]);
+            'responseGameNews' => $responseGamesNewsBody, 'responseGameConsoleNews' => $responseGameConsoleNewsBody,
+            'responseGameESportNews' => $responseGameESportNewsBody, 'responseUpdateGameNews' => $responseUpdateGameNewsBody]);
     }
 
     public function techNews()
@@ -66,9 +66,9 @@ class HomeController extends Controller
         $responseTechUpdateNewsBody = json_decode($responseTechUpdateNews->getBody());
         $responseTechTipBody = json_decode($responseTechTip->getBody());
 
-        return view('tech', ['responseTechNews' => $responseTechNewsBody->result,
-            'responseTechUpdateNews' => $responseTechUpdateNewsBody->result,
-            'responseTechTips' => $responseTechTipBody->result]);
+        return view('tech', ['responseTechNews' => $responseTechNewsBody,
+            'responseTechUpdateNews' => $responseTechUpdateNewsBody,
+            'responseTechTips' => $responseTechTipBody]);
 
     }
 }

@@ -4,14 +4,13 @@
         <div class="col-sm-12">
             <div class="text-center">
                 <h1 class="text-center mt-5">
-                    world
+                    Games
                 </h1>
                 <p class="text-secondary fs-15">
-                    This text can be added in the category Description field in
-                    dashboard
+                on this page can display all information about games
                 </p>
             </div>
-            <h5 class="text-muted font-weight-medium mb-3">World News</h5>
+            <h5 class="text-muted font-weight-medium mb-3">Games News</h5>
         </div>
     </div>
     <div class="row">

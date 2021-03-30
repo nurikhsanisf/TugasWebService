@@ -105,7 +105,7 @@
                                     <a class="nav-link" href="{{ url('/games') }}">Games</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href=""{{ url('/tech') }}"">Tech</a>
+                                    <a class="nav-link" href="{{ url('/tech') }}">Tech</a>
                                 </li>
                             </ul>
                         </div>
@@ -130,45 +130,29 @@
                     </div>
                     <div class="col-sm-3 col-lg-3">
                         <ul class="footer-vertical-nav">
-                            <li class="menu-title"><a href="pages/news-post.html">News</a></li>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="pages/world.html">World</a></li>
-                            <li><a href="pages/author.html">Magazine</a></li>
-                            <li><a href="pages/business.html">Business</a></li>
+                            <li class="menu-title"><a href="pages/news-post.html">Home</a></li>
+                            <li><a href="index.html">Headline News</a></li>
+                            <li><a href="pages/world.html">Sport</a></li>
+                            <li><a href="pages/author.html">Science</a></li>
+                            <li><a href="pages/business.html">BBC News</a></li>
                             <li><a href="pages/politics.html">Politics</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-lg-3">
                         <ul class="footer-vertical-nav">
-                            <li class="menu-title"><a href="pages/world.html">World</a></li>
-                            <li><a href="pages/sports.html">Sports</a></li>
-                            <li><a href="pages/art.html">Art</a></li>
-                            <li><a href="#">Magazine</a></li>
-                            <li><a href="pages/real-estate.html">Real estate</a></li>
-                            <li><a href="pages/travel.html">Travel</a></li>
-                            <li><a href="pages/author.html">Author</a></li>
+                            <li class="menu-title"><a href="pages/world.html">Games</a></li>
+                            <li><a href="pages/sports.html">Update Game</a></li>
+                            <li><a href="pages/art.html">Console Game</a></li>
+                            <li><a href="#">E Sport Game</a></li>
+                            <li><a href="pages/real-estate.html">Headline Game</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-3 col-lg-3">
                         <ul class="footer-vertical-nav">
-                            <li class="menu-title"><a href="#">Features</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Video</a></li>
-                            <li><a href="pages/news-post.html">Newsletters</a></li>
-                            <li><a href="#">Live Events</a></li>
-                            <li><a href="#">Stores</a></li>
-                            <li><a href="#">Jobs</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-3 col-lg-3">
-                        <ul class="footer-vertical-nav">
-                            <li class="menu-title"><a href="#">More</a></li>
-                            <li><a href="#">RSS</a></li>
-                            <li><a href="#">FAQ</a></li>
-                            <li><a href="#">User Agreement</a></li>
-                            <li><a href="#">Privacy</a></li>
-                            <li><a href="pages/aboutus.html">About us</a></li>
-                            <li><a href="pages/contactus.html">Contact</a></li>
+                            <li class="menu-title"><a href="#">Tech</a></li>
+                            <li><a href="#">Technology News</a></li>
+                            <li><a href="#">Update Technology</a></li>
+                            <li><a href="pages/news-post.html">Word</a></li>
                         </ul>
                     </div>
                 </div>
